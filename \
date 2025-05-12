@@ -1,0 +1,44 @@
+[user]
+	name = Egor Kochetkov
+	email = pirs2132@gmail.com
+[core]
+    editor = nvim
+    compression = 9
+    whitespace = error
+    preloadindex = true
+
+[advice]
+    addEmptyPathspec = false
+    pushNonFastForward = false
+    statusHints = false
+
+[url "git@github.com:PIRSON21/"]
+    insteadOf = "my:"
+
+[url "git@github.com:"]
+    insteadOf = "gh:"
+
+[status]
+    branch = true
+    showStash = true
+    showUntrackedFiles = all
+[commit]
+    template = ~/.gitmessage.txt
+[push]
+    autoSetupRemote = true
+    default = current
+    followTags = true
+[pull]
+    default = current
+    rebase = true
+[rebase]
+    autoStash = true
+    missingCommitsCheck = true
+[logs]
+    abbrevCommit = true
+    graphColors = blue, yellow, cyan, magenta, green, red
+[color "decorate"]
+    HEAD = red
+    branch = blue
+    tag = yellow 
+    remoteBranch = magenta
